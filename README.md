@@ -1,6 +1,6 @@
 
 # Adventure works bike shop project on power bi
-
+![](https://github.com/Ryskhanryskhan/power-bi-adventure-works/blob/main/adventure%20works.png)
 ### Dashboard Link : https://app.powerbi.com/groups/me/reports/39f22bff-ab35-422e-98a1-2ef4a9a3cfbd/2cef467e5b8a603ab4b6?language=en-US&experience=power-bi
 
 ### Project Overview
@@ -107,3 +107,37 @@ Data is represented by Year.
 Combines Line Chart and Column Chart:
 Total Profit: Visualized by month and year.
 Total Revenue: Displayed similarly, allowing comparison over time.
+
+## Steps applied 
+#### Data collection and import
+-Imported the data into Power BI, ensuring data integrity by checking for missing values and inconsistencies.
+
+#### Data transformation ans cleaing
+-Cleaned the dataset by removing any duplicates, correcting data types (e.g., ensuring numerical values were formatted correctly), and handling any missing values.
+
+-Applied necessary transformations, including creating calculated columns and measures (e.g., Average Revenue per Customer, Return Rate).
+
+-Aggregated data as needed, grouping by regions, categories, and time periods to prepare it for analysis.
+
+#### Data Modeling
+-Created relationships between various data tables
+
+-Defined primary and foreign keys to ensure proper relationships (e.g., Customer ID to Orders).
+
+#### Data Analysis and Calculations
+##### Calculated key performance indicators (KPIs) using DAX measures, such as:
+-Total Revenue
+
+-Total Profit
+
+-Total Orders
+
+-Return Rate
+
+-Average Revenue per Customer
+
+Developed calculated columns for additional insights, such as:
+Revenue by Category: Summing revenue for each category.
+Orders by Month: Aggregating orders by month for time-based analysis.
+
+#### Visualization Creation
